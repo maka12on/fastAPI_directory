@@ -1,0 +1,2 @@
+# fastAPI_directory
+軽い規模のプロジェクト向けfastAPIディレクトリ構造
