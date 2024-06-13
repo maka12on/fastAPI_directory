@@ -3,12 +3,12 @@ from typing import List
 
 class ResponseItem(BaseModel):
     '''
-    route "/effect/list" レスポンス内容
+    ResponseItem
 
     Parameters:
     -------
     result: str
-    effectList: List[EffectItem]
+    effectList: str
     '''
     result: str
     id: str

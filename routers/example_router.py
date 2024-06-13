@@ -7,13 +7,13 @@ router = APIRouter()
 
 @router.get("/example/get", status_code=200, response_model=ResponseItem)
 # GetProductResponseの型を返す宣言
-async def getList()-> ResponseItem:
+async def example()-> ResponseItem:
     """
-    エフェクトリストのデータを返す
+    データを返す
     
     Returns
     -------
-    APIResponseItem
+    ResponseItem
     """
     try:
         item = example_model()
